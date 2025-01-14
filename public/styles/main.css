@@ -1,0 +1,45 @@
+.navbar {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-elements {
+    color: gray;
+    display: flex;
+    justify-content: space-around;
+    gap: 35px;
+    padding: 10px;
+    margin-right: 50px;
+}
+
+.navbar h2 {
+    color: darkgrey;
+    margin-left: 50px;
+    padding: 10px;
+}
+
+.a {
+    color: gray;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar-elements {
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-elements {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 80px;
+    }
+
+}
