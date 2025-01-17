@@ -1,11 +1,11 @@
 .navbar {
-    background-color: white;
+    background-color: black;
     display: flex;
     justify-content: space-between;
 }
 
 .nav-elements {
-    color: gray;
+    color: white;
     display: flex;
     justify-content: space-around;
     gap: 35px;
@@ -14,7 +14,7 @@
 }
 
 .navbar h2 {
-    color: darkgrey;
+    color: white;
     margin-left: 50px;
     padding: 10px;
 }
@@ -42,4 +42,20 @@
         margin-left: 80px;
     }
 
+}
+
+#hero-img {
+    height: 200px;
+    width: 200px;
+}
+
+
+#aiems {
+    color: red;
+}
+
+.a:hover {
+    color: red;
+    transition: 1s;
+    font-size: large;
 }
