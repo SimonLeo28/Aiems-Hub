@@ -56,7 +56,7 @@
 
 .a:hover {
     color: red;
-    transition: 1s;
+    transition: 0.5s;
     font-size: large;
 }
 
@@ -85,7 +85,12 @@ body {
   /* About Section */
   .about-section {
     padding: 4rem 2rem;
-    background: #f9f9f9;
+    background: black;
+  }
+
+  .about-section p {
+    color: white;
+    font-size: medium;
   }
   
   .container {
@@ -128,7 +133,7 @@ body {
   .about-content .btn:hover {
     background: red;
     color: black;
-    font-weight: bold;
+    transition: 0.5s;
   }
   
   .about-image {
@@ -307,3 +312,258 @@ body {
     }
   }
   
+.material-hero {
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background-color: black;
+  font-size: larger;
+}
+
+.material-hero h1 {
+  font-weight: bolder;
+  font-size: 5rem;
+  color: red;
+}
+
+.basic-science {
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  padding: 5px;
+  margin: 100px;
+  height: fit-content;
+  width: fit-content;
+}
+
+.basic-science h1 {
+  color: white;
+  font-size: xx-large;
+  padding: 130px;
+  font-weight: bolder;
+}
+
+.basic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cse {
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  padding: 5px;
+  margin: 100px;
+  height: fit-content;
+  width: fit-content;
+}
+
+.cse h1 {
+  color: white;
+  font-size: xx-large;
+  padding: 130px;
+  font-weight: bolder;
+}
+
+.civil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.civil a {
+  color: white;
+}
+
+/* Contact Container */
+.contact-container {
+  display: flex;
+  width: 50%;
+  max-width: 1200px;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Left Side Image */
+.contact-image {
+  flex: 1;
+}
+
+.contact-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Right Side Form */
+.contact-form {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-form h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #333333;
+}
+
+/* Form Group */
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #666666;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+input:focus, textarea:focus, input:hover, textarea:hover {
+  border-color: red;
+  outline: none;
+}
+
+/* Submit Button */
+.submit-btn {
+  padding: 12px 20px;
+  background-color: #333333;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: red;
+}
+
+.cont {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.basic-science a {
+  color: white;
+}
+
+.basic-page {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .basic {
+    display: flex;
+    flex-direction: column;
+  }
+  .civil {
+    display: flex;
+    flex-direction: column;
+  }
+  .material-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .basic-page {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.basic-page {
+  display: flex;
+  gap: 10px;
+}
+
+.basic a {
+  color: white;
+}
+
+.sem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+
+.sembt {
+  background-color: black;
+  border-radius: 10%;
+
+}
+
+.sembt h1 {
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.third {
+  padding: 10px;
+  width: 90%;
+  background-color: rgb(204, 203, 203);
+  margin: 50px;
+  height: 150px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: #666666;
+  box-shadow: #666666;
+}
+
+.third h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: black;
+}
+
+#th:hover {
+  border: 2px solid red;
+  transition: border-color 0.3s ease;
+}
+
+/* the a tag of cse 3rd sem box */
+#th {
+  text-decoration: none;
+}
+
+
+.third:hover {
+  border-bottom: 8px solid red;
+  transition: border-color 1s ease;
+}
